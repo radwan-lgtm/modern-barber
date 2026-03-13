@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الحجز</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>اختر يوم وموعد الحجز</h1>
+</header>
+
+<section class="booking">
+  <label>اليوم:
+    <input type="date" id="date">
+  </label>
+
+  <label>الساعة:
+    <select id="time">
+      <option>12:00</option>
+      <option>13:00</option>
+      <option>14:00</option>
+      <option>15:00</option>
+      <option>16:00</option>
+      <option>17:00</option>
+      <option>18:00</option>
+      <option>19:00</option>
+      <option>20:00</option>
+      <option>21:00</option>
+      <option>22:00</option>
+      <option>23:00</option>
+    </select>
+  </label>
+
+  <button onclick="saveBooking()">تأكيد الحجز</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
